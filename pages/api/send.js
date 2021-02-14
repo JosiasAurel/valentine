@@ -1,12 +1,15 @@
 const mailer = require("nodemailer")
+const smtp = require("nodemailer-smtp-transport")
 
-let transporter = mailer.createTransport({
+let transporter = mailer.createTransport(smtp(
+    {
     service: "gmail",
     auth: {
         user: "skisnippet@gmail.com",
         pass: "snippetboyo500"
     }
-})
+}
+))
 
 
 module.exports = (req, res) => {
