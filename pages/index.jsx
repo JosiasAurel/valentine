@@ -29,7 +29,7 @@ const Index = () => {
         </main>
 
         <div className={styles.msgC}>
-            <form 
+            <form onSubmit={sendMsg}
              action="#" className={styles.form}>
                 <input 
                 value={msg}
