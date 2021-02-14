@@ -13,9 +13,7 @@ const Index = () => {
                     headers: {
                         "Content-Type": "application/json"
                     },
-                    body: {
-                        fMsg
-                    }
+                    body: fMsg
                 })
     }
     return (
