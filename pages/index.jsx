@@ -24,7 +24,7 @@ const Index = () => {
         <>
         
         <main>
-	    <Modal>
+	    <Modal open={open} onClose={() => setOpen(false)}>
 	    <Modal.Title>
 	    Thank You
 	    </Modal.Title>
