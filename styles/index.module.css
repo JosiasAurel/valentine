@@ -1,0 +1,64 @@
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer img {
+    animation-name: beat;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes beat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(0.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+
+}
+
+.hero {
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.msgC {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form input {
+    padding: 1em 2em 1em 2em;
+    border: solid rgb(255, 45, 150);
+    border-radius: 6px;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form button {
+    margin-top: 1em;
+    border: solid transparent;
+    background-color: rgb(255, 45, 150);
+    color: white;
+    padding: 1em 2em 1em 2em;
+    border-radius: 6px;
+}

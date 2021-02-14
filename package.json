@@ -4,7 +4,9 @@
   "description": "Wish me some valentine message anonymously",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "keywords": [
     "valentine",

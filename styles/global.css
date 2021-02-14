@@ -4,3 +4,9 @@
     box-sizing: border-box;
     font-family: 'Love Ya Like A Sister', monospace;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
