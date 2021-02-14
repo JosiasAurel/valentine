@@ -14,8 +14,10 @@ const Index = () => {
                         "Content-Type": "application/json"
                     },
                     body: fMsg
-                })
+                }
+	)
     }
+	alert("Message Sent. Thank you ")
     return (
         <>
         
